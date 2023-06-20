@@ -1,6 +1,7 @@
 #include <iostream>
 #include <armadillo>
-int main() {
+int main()
+{
   arma::fmat in_1(32, 32, arma::fill::ones);
   arma::fmat in_2(32, 32, arma::fill::ones);
 
